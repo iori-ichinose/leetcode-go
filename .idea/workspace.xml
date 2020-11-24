@@ -3,12 +3,31 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="15693987-4fee-402c-8cb4-d0bb94aeca63" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/.idea/leetcode-go.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binaryTree/222-count-complete-tree-nodes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamicProgramming/198-house-robber.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qstring/409-longest-palindrome.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +43,7 @@
   </component>
   <component name="GOROOT" path="$USER_HOME$/AppData/Local/Programs/Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../leetcode-go" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -34,7 +53,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1kQADTIuIygoGa2DwfNZ3ZalgtV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leetcode-go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,6 +110,18 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -159,9 +192,9 @@
       <screen x="0" y="31" width="1440" height="929" />
     </state>
     <state x="523" y="401" key="git4idea.remote.GitConfigureRemotesDialog/0.31.1440.929@0.31.1440.929" timestamp="1606124148316" />
-    <state x="635" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1605977590243">
+    <state x="635" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1606148567110">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state x="635" y="249" width="672" height="678" key="search.everywhere.popup/0.31.1440.929@0.31.1440.929" timestamp="1605977590243" />
+    <state x="635" y="249" width="672" height="678" key="search.everywhere.popup/0.31.1440.929@0.31.1440.929" timestamp="1606148567110" />
   </component>
 </project>
