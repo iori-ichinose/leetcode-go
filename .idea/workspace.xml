@@ -19,15 +19,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15693987-4fee-402c-8cb4-d0bb94aeca63" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/binaryTree/222-count-complete-tree-nodes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamicProgramming/198-house-robber.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qstring/409-longest-palindrome.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +45,39 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$USER_HOME$/AppData/Local/Programs/Go" />
+  <component name="GOROOT" path="$USER_HOME$/AppData/Local/go" />
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -64,6 +99,9 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -72,7 +110,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Iori\go\src\leetcode-go\backtrack" />
+      <recent name="C:\Users\Iori\go\src\leetcode-go\array" />
+      <recent name="C:\Users\Iori\go\src\leetcode-go\dynamicProgramming" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -116,7 +161,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -125,76 +182,108 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="update workspace configs" />
+    <MESSAGE value="update question 192 222 409" />
+    <MESSAGE value="update question 3 1370" />
+    <MESSAGE value="update question 05.03. 120 164 208" />
+    <MESSAGE value="update question 02.03 59-II 102 454 493 718 1401" />
+    <MESSAGE value="update question 162 450 976 1436" />
+    <MESSAGE value="update question 01.04 128 1417" />
+    <MESSAGE value="update question 22 121 767" />
+    <option name="LAST_COMMIT_MESSAGE" value="update question 22 121 767" />
   </component>
   <component name="WindowStateProjectService">
     <state x="369" y="162" key="#Deployment" timestamp="1605803733542">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
     <state x="369" y="162" key="#Deployment/0.31.1440.929@0.31.1440.929" timestamp="1605803733542" />
+    <state x="513" y="154" key="#GOPATH" timestamp="1606642862723">
+      <screen x="0" y="31" width="1440" height="929" />
+    </state>
+    <state x="513" y="154" key="#GOPATH/0.31.1440.929@0.31.1440.929" timestamp="1606642862723" />
+    <state x="513" y="426" key="#GOROOT" timestamp="1606642817478">
+      <screen x="0" y="31" width="1440" height="929" />
+    </state>
+    <state x="513" y="426" key="#GOROOT/0.31.1440.929@0.31.1440.929" timestamp="1606642817478" />
     <state x="172" y="164" width="1089" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606123483018">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
     <state x="172" y="164" width="1089" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1440.929@0.31.1440.929" timestamp="1606123483018" />
-    <state x="497" y="264" key="FileChooserDialogImpl" timestamp="1606123862004">
+    <state x="323" y="62" width="793" height="679" key="CommitChangelistDialog2" timestamp="1606643287556">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state x="497" y="264" key="FileChooserDialogImpl/0.31.1440.929@0.31.1440.929" timestamp="1606123862004" />
+    <state x="323" y="62" width="793" height="679" key="CommitChangelistDialog2/0.31.1440.929@0.31.1440.929" timestamp="1606643287556" />
+    <state x="497" y="264" key="FileChooserDialogImpl" timestamp="1606642836600">
+      <screen x="0" y="31" width="1440" height="929" />
+    </state>
+    <state x="497" y="264" key="FileChooserDialogImpl/0.31.1440.929@0.31.1440.929" timestamp="1606642836600" />
     <state x="392" y="395" key="Github.CreateGistDialog" timestamp="1606123749162">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
     <state x="392" y="395" key="Github.CreateGistDialog/0.31.1440.929@0.31.1440.929" timestamp="1606123749162" />
-    <state width="1397" height="177" key="GridCell.Tab.0.bottom" timestamp="1606124714677">
+    <state width="920" height="176" key="GridCell.Tab.0.bottom" timestamp="1606274574110">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state width="1397" height="177" key="GridCell.Tab.0.bottom/0.31.1440.929@0.31.1440.929" timestamp="1606124714677" />
-    <state width="1397" height="177" key="GridCell.Tab.0.center" timestamp="1606124714675">
+    <state width="920" height="176" key="GridCell.Tab.0.bottom/0.31.1440.929@0.31.1440.929" timestamp="1606274574110" />
+    <state width="920" height="176" key="GridCell.Tab.0.center" timestamp="1606274574110">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state width="1397" height="177" key="GridCell.Tab.0.center/0.31.1440.929@0.31.1440.929" timestamp="1606124714675" />
-    <state width="1397" height="177" key="GridCell.Tab.0.left" timestamp="1606124714674">
+    <state width="920" height="176" key="GridCell.Tab.0.center/0.31.1440.929@0.31.1440.929" timestamp="1606274574110" />
+    <state width="920" height="176" key="GridCell.Tab.0.left" timestamp="1606274574110">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state width="1397" height="177" key="GridCell.Tab.0.left/0.31.1440.929@0.31.1440.929" timestamp="1606124714674" />
-    <state width="1397" height="177" key="GridCell.Tab.0.right" timestamp="1606124714676">
+    <state width="920" height="176" key="GridCell.Tab.0.left/0.31.1440.929@0.31.1440.929" timestamp="1606274574110" />
+    <state width="920" height="176" key="GridCell.Tab.0.right" timestamp="1606274574110">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state width="1397" height="177" key="GridCell.Tab.0.right/0.31.1440.929@0.31.1440.929" timestamp="1606124714676" />
-    <state width="918" height="281" key="GridCell.Tab.1.bottom" timestamp="1605981618428">
+    <state width="920" height="176" key="GridCell.Tab.0.right/0.31.1440.929@0.31.1440.929" timestamp="1606274574110" />
+    <state width="920" height="229" key="GridCell.Tab.1.bottom" timestamp="1606231657559">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state width="918" height="281" key="GridCell.Tab.1.bottom/0.31.1440.929@0.31.1440.929" timestamp="1605981618428" />
-    <state width="918" height="281" key="GridCell.Tab.1.center" timestamp="1605981618428">
+    <state width="920" height="229" key="GridCell.Tab.1.bottom/0.31.1440.929@0.31.1440.929" timestamp="1606231657559" />
+    <state width="920" height="229" key="GridCell.Tab.1.center" timestamp="1606231657559">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state width="918" height="281" key="GridCell.Tab.1.center/0.31.1440.929@0.31.1440.929" timestamp="1605981618428" />
-    <state width="918" height="281" key="GridCell.Tab.1.left" timestamp="1605981618428">
+    <state width="920" height="229" key="GridCell.Tab.1.center/0.31.1440.929@0.31.1440.929" timestamp="1606231657559" />
+    <state width="920" height="229" key="GridCell.Tab.1.left" timestamp="1606231657559">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state width="918" height="281" key="GridCell.Tab.1.left/0.31.1440.929@0.31.1440.929" timestamp="1605981618428" />
-    <state width="918" height="281" key="GridCell.Tab.1.right" timestamp="1605981618428">
+    <state width="920" height="229" key="GridCell.Tab.1.left/0.31.1440.929@0.31.1440.929" timestamp="1606231657559" />
+    <state width="920" height="229" key="GridCell.Tab.1.right" timestamp="1606231657559">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state width="918" height="281" key="GridCell.Tab.1.right/0.31.1440.929@0.31.1440.929" timestamp="1605981618428" />
+    <state width="920" height="229" key="GridCell.Tab.1.right/0.31.1440.929@0.31.1440.929" timestamp="1606231657559" />
     <state x="425" y="196" key="RollbackChangesDialog" timestamp="1606124091759">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
     <state x="425" y="196" key="RollbackChangesDialog/0.31.1440.929@0.31.1440.929" timestamp="1606124091759" />
-    <state x="435" y="152" key="SettingsEditor" timestamp="1605853080288">
+    <state x="5" y="125" key="SettingsEditor" timestamp="1606642843674">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state x="435" y="152" key="SettingsEditor/0.31.1440.929@0.31.1440.929" timestamp="1605853080288" />
-    <state x="313" y="228" key="Vcs.Push.Dialog.v2" timestamp="1606124207705">
+    <state x="5" y="125" key="SettingsEditor/0.31.1440.929@0.31.1440.929" timestamp="1606642843674" />
+    <state x="313" y="228" key="Vcs.Push.Dialog.v2" timestamp="1606668178793">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state x="313" y="228" key="Vcs.Push.Dialog.v2/0.31.1440.929@0.31.1440.929" timestamp="1606124207705" />
-    <state x="523" y="401" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606124148316">
+    <state x="313" y="228" key="Vcs.Push.Dialog.v2/0.31.1440.929@0.31.1440.929" timestamp="1606668178793" />
+    <state x="482" y="339" key="cloudConfig.PluginsDialog" timestamp="1606290823614">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state x="523" y="401" key="git4idea.remote.GitConfigureRemotesDialog/0.31.1440.929@0.31.1440.929" timestamp="1606124148316" />
-    <state x="635" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1606148567110">
+    <state x="482" y="339" key="cloudConfig.PluginsDialog/0.31.1440.929@0.31.1440.929" timestamp="1606290823614" />
+    <state x="461" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606290106635">
       <screen x="0" y="31" width="1440" height="929" />
     </state>
-    <state x="635" y="249" width="672" height="678" key="search.everywhere.popup/0.31.1440.929@0.31.1440.929" timestamp="1606148567110" />
+    <state x="461" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.31.1440.929@0.31.1440.929" timestamp="1606290106635" />
+    <state x="523" y="401" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606668225950">
+      <screen x="0" y="31" width="1440" height="929" />
+    </state>
+    <state x="523" y="401" key="git4idea.remote.GitConfigureRemotesDialog/0.31.1440.929@0.31.1440.929" timestamp="1606668225950" />
+    <state x="529" y="334" key="git4idea.ui.GitTagDialog" timestamp="1606643222715">
+      <screen x="0" y="31" width="1440" height="929" />
+    </state>
+    <state x="529" y="334" key="git4idea.ui.GitTagDialog/0.31.1440.929@0.31.1440.929" timestamp="1606643222715" />
+    <state x="635" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1606476605131">
+      <screen x="0" y="31" width="1440" height="929" />
+    </state>
+    <state x="635" y="249" width="672" height="678" key="search.everywhere.popup/0.31.1440.929@0.31.1440.929" timestamp="1606476605130" />
   </component>
 </project>
