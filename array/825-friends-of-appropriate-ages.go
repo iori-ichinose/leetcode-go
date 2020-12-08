@@ -37,6 +37,7 @@ func numFriendRequests(ages []int) int {
 }
 
 func NumFriendRequestsTb() {
+	print("Testbench numFriendRequests")
 	friends := []int{16, 15, 27, 120}
 	println(numFriendRequests(friends))
 }

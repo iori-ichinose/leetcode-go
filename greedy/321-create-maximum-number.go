@@ -3,7 +3,7 @@
  * 2020.12.2
  * 没做出来，太难了
  */
-package array
+package greedy
 
 func maxNumber(nums1 []int, nums2 []int, k int) []int {
 	maxSubsequence := func(a []int, k int) []int {

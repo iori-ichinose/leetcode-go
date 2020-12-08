@@ -3,7 +3,7 @@
  * 2020.11.28
  * Golang 4ms(85.76%), 2.7MB(44.48%)
  */
-package array
+package find
 
 func findPeakElement(nums []int) int {
 	left, right := 0, len(nums)-1

@@ -3,7 +3,7 @@
  * 2020.11.29
  * Golang 8ms(60.43%), 3.8MB(27.01%)
  */
-package array
+package hashmap
 
 func longestConsecutive(nums []int) int {
 	lengths := map[int]int{}

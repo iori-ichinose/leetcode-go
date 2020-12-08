@@ -4,7 +4,7 @@
  * 动态规划: Golang 72ms(46.73%), 16.3MB(22.43%)
  * 滑动窗口：Golang 72ms(46.73%), 3.4MB(96.26%)
  */
-package array
+package slideWindow
 
 func findLengthDp(A []int, B []int) int {
 	m, n, res := len(A), len(B), 0

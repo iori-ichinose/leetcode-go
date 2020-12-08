@@ -3,7 +3,7 @@
  * 2020.11.21
  * Golang 0ms(100.00%), 1.9MB(91.51%)
  */
-package array
+package math
 
 func fib(n int) int {
 	if n == 0 || n == 1 {
