@@ -1,3 +1,8 @@
+/*
+ * https://leetcode-cn.com/problems/max-consecutive-ones-iii/
+ * 2020.12.9
+ * Golang 72ms(83.05%), 6.9MB(62.61%)
+ */
 package slideWindow
 
 func longestOnes(A []int, K int) int {
