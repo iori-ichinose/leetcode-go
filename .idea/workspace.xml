@@ -24,12 +24,16 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15693987-4fee-402c-8cb4-d0bb94aeca63" name="Default Changelist" comment="initial commit">
+    <list default="true" id="15693987-4fee-402c-8cb4-d0bb94aeca63" name="Default Changelist" comment="update question 68-I. 204 321 811 950 1095">
+      <change afterPath="$PROJECT_DIR$/_structures/BinaryTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_structures/Deque.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_structures/List.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_structures/Stack.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -45,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$USER_HOME$/AppData/Local/go" />
+  <component name="GOROOT" url="file:///usr/lib/go" />
   <component name="Git.Settings">
     <excluded-from-favorite>
       <branch-storage>
@@ -54,6 +58,13 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
               </list>
             </value>
           </entry>
@@ -70,15 +81,30 @@
               </list>
             </value>
           </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
         </map>
       </branch-storage>
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -96,13 +122,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
-    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -110,13 +138,16 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Iori\go\src\leetcode-go\backtrack" />
+      <recent name="C:\Users\Iori\go\src\leetcode-go\binaryTree" />
+      <recent name="C:\Users\Iori\go\src\leetcode-go\_structures" />
+      <recent name="C:\Users\Iori\go\src\leetcode-go\graph" />
       <recent name="C:\Users\Iori\go\src\leetcode-go\array" />
-      <recent name="C:\Users\Iori\go\src\leetcode-go\dynamicProgramming" />
+      <recent name="C:\Users\Iori\go\src\leetcode-go\slideWindow" />
     </key>
   </component>
   <component name="RunManager">
@@ -167,7 +198,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -190,100 +221,21 @@
     <MESSAGE value="update question 162 450 976 1436" />
     <MESSAGE value="update question 01.04 128 1417" />
     <MESSAGE value="update question 22 121 767" />
-    <option name="LAST_COMMIT_MESSAGE" value="update question 22 121 767" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="369" y="162" key="#Deployment" timestamp="1605803733542">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="369" y="162" key="#Deployment/0.31.1440.929@0.31.1440.929" timestamp="1605803733542" />
-    <state x="513" y="154" key="#GOPATH" timestamp="1606642862723">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="513" y="154" key="#GOPATH/0.31.1440.929@0.31.1440.929" timestamp="1606642862723" />
-    <state x="513" y="426" key="#GOROOT" timestamp="1606642817478">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="513" y="426" key="#GOROOT/0.31.1440.929@0.31.1440.929" timestamp="1606642817478" />
-    <state x="172" y="164" width="1089" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606123483018">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="172" y="164" width="1089" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1440.929@0.31.1440.929" timestamp="1606123483018" />
-    <state x="323" y="62" width="793" height="679" key="CommitChangelistDialog2" timestamp="1606643287556">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="323" y="62" width="793" height="679" key="CommitChangelistDialog2/0.31.1440.929@0.31.1440.929" timestamp="1606643287556" />
-    <state x="497" y="264" key="FileChooserDialogImpl" timestamp="1606642836600">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="497" y="264" key="FileChooserDialogImpl/0.31.1440.929@0.31.1440.929" timestamp="1606642836600" />
-    <state x="392" y="395" key="Github.CreateGistDialog" timestamp="1606123749162">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="392" y="395" key="Github.CreateGistDialog/0.31.1440.929@0.31.1440.929" timestamp="1606123749162" />
-    <state width="920" height="176" key="GridCell.Tab.0.bottom" timestamp="1606274574110">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state width="920" height="176" key="GridCell.Tab.0.bottom/0.31.1440.929@0.31.1440.929" timestamp="1606274574110" />
-    <state width="920" height="176" key="GridCell.Tab.0.center" timestamp="1606274574110">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state width="920" height="176" key="GridCell.Tab.0.center/0.31.1440.929@0.31.1440.929" timestamp="1606274574110" />
-    <state width="920" height="176" key="GridCell.Tab.0.left" timestamp="1606274574110">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state width="920" height="176" key="GridCell.Tab.0.left/0.31.1440.929@0.31.1440.929" timestamp="1606274574110" />
-    <state width="920" height="176" key="GridCell.Tab.0.right" timestamp="1606274574110">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state width="920" height="176" key="GridCell.Tab.0.right/0.31.1440.929@0.31.1440.929" timestamp="1606274574110" />
-    <state width="920" height="229" key="GridCell.Tab.1.bottom" timestamp="1606231657559">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state width="920" height="229" key="GridCell.Tab.1.bottom/0.31.1440.929@0.31.1440.929" timestamp="1606231657559" />
-    <state width="920" height="229" key="GridCell.Tab.1.center" timestamp="1606231657559">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state width="920" height="229" key="GridCell.Tab.1.center/0.31.1440.929@0.31.1440.929" timestamp="1606231657559" />
-    <state width="920" height="229" key="GridCell.Tab.1.left" timestamp="1606231657559">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state width="920" height="229" key="GridCell.Tab.1.left/0.31.1440.929@0.31.1440.929" timestamp="1606231657559" />
-    <state width="920" height="229" key="GridCell.Tab.1.right" timestamp="1606231657559">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state width="920" height="229" key="GridCell.Tab.1.right/0.31.1440.929@0.31.1440.929" timestamp="1606231657559" />
-    <state x="425" y="196" key="RollbackChangesDialog" timestamp="1606124091759">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="425" y="196" key="RollbackChangesDialog/0.31.1440.929@0.31.1440.929" timestamp="1606124091759" />
-    <state x="5" y="125" key="SettingsEditor" timestamp="1606642843674">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="5" y="125" key="SettingsEditor/0.31.1440.929@0.31.1440.929" timestamp="1606642843674" />
-    <state x="313" y="228" key="Vcs.Push.Dialog.v2" timestamp="1606668178793">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="313" y="228" key="Vcs.Push.Dialog.v2/0.31.1440.929@0.31.1440.929" timestamp="1606668178793" />
-    <state x="482" y="339" key="cloudConfig.PluginsDialog" timestamp="1606290823614">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="482" y="339" key="cloudConfig.PluginsDialog/0.31.1440.929@0.31.1440.929" timestamp="1606290823614" />
-    <state x="461" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606290106635">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="461" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.31.1440.929@0.31.1440.929" timestamp="1606290106635" />
-    <state x="523" y="401" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606668225950">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="523" y="401" key="git4idea.remote.GitConfigureRemotesDialog/0.31.1440.929@0.31.1440.929" timestamp="1606668225950" />
-    <state x="529" y="334" key="git4idea.ui.GitTagDialog" timestamp="1606643222715">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="529" y="334" key="git4idea.ui.GitTagDialog/0.31.1440.929@0.31.1440.929" timestamp="1606643222715" />
-    <state x="635" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1606476605131">
-      <screen x="0" y="31" width="1440" height="929" />
-    </state>
-    <state x="635" y="249" width="672" height="678" key="search.everywhere.popup/0.31.1440.929@0.31.1440.929" timestamp="1606476605130" />
+    <MESSAGE value="update workspace.xml" />
+    <MESSAGE value="update question 5 34 53 62 63 64 474 876" />
+    <MESSAGE value="update question 68-I. 204 321 811 950 1095" />
+    <MESSAGE value="update question 55 561 621 659 1043" />
+    <MESSAGE value="modify README" />
+    <MESSAGE value="update question 118 861 5617" />
+    <MESSAGE value="move 10 128 162 321 825 from array" />
+    <MESSAGE value="update question 842 1004 1351 1646" />
+    <MESSAGE value="update question 860 872" />
+    <MESSAGE value="update question 35 38 48 376 649 714 738 821 1046 1189 1441 1594" />
+    <MESSAGE value="update question 48 300 316 389 929" />
+    <MESSAGE value="update question 103 135 205 207 264 297 330 435 746" />
+    <MESSAGE value="update question 86 239 605 830" />
+    <MESSAGE value="update question 04.12. 123 189 547" />
+    <MESSAGE value="change line separator to LF instead of CRLF" />
+    <option name="LAST_COMMIT_MESSAGE" value="change line separator to LF instead of CRLF" />
   </component>
 </project>
