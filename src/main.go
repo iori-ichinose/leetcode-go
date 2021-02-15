@@ -1,6 +1,6 @@
 package main
 
-import "leetcode-go/qstring"
+import "qstring"
 
 func main() {
 	qstring.IsPrefixOfWordTb()

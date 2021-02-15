@@ -30,12 +30,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15693987-4fee-402c-8cb4-d0bb94aeca63" name="Default Changelist" comment="update question 68-I. 204 321 811 950 1095">
-      <change afterPath="$PROJECT_DIR$/_structures/BinaryTree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_structures/Deque.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_structures/List.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_structures/Stack.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode-go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode-go.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_structures/Deque.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_structures/List.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_structures/Stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/1441-build-an-array-with-stack-operations.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/1646-get-maximum-in-generated-array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/189-rotate-array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/283-move-zeroes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/48-rotate-image.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/821-shortest-distance-to-a-character.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/825-friends-of-appropriate-ages.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/830-positions-of-large-groups.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtrack/1219-path-with-maximum-gold.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtrack/22-generate-parentheses.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtrack/698-partition-to-k-equal-sum-subsets.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backtrack/842-split-array-into-fibonacci-sequence.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/04.12-paths-with-sum-lcci.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/101-symmetric-tree.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/102-binary-tree-level-order-traversal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/103-binary-tree-zigzag-level-order-traversal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/222-count-complete-tree-nodes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/297-serialize-and-deserialize-binary-tree.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/450-delete-node-in-a-bst.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/55-I.-er-cha-shu-de-shen-du-lcof.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/669-trim-a-binary-search-tree.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/68-I.-er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/872-leaf-similar-trees.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/94-binary-tree-inorder-traversal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binaryTree/def.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bit/05.03.-reverse-bits-lcci.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bit/693-binary-number-with-alternating-bits.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/208-implement-trie-prefix-tree.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/535-encode-and-decode-tinyurl.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/59-II.-dui-lie-de-zui-da-zhi-lcof.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/855-exam-room.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/08.13.-pile-box-lcci.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/1043-partition-array-for-maximum-sum.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/1155-number-of-dice-rolls-with-target-sum.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/120-triangle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/121-best-time-to-buy-and-sell-stock.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/123-best-time-to-buy-and-sell-stock-iii.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/1594-maximum-non-negative-product-in-a-matrix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/198-house-robber.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/264-ugly-number-ii.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/300-longest-increasing-subsequence.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/474-ones-and-zeroes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/5-longest-palindromic-substring.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/53-maximum-subarray.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/62-unique-paths.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/63-unique-paths-ii.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/64-minimum-path-sum.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/714-best-time-to-buy-and-sell-stock-with-transaction-fee.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProgramming/746-min-cost-climbing-stairs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/find/1095-find-in-mountain-array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/find/1351-count-negative-numbers-in-a-sorted-matrix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/find/162-find-peak-element.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/find/34-find-first-and-last-position-of-element-in-sorted-array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/207-course-schedule.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/547-number-of-provinces.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/1046-last-stone-weight.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/134-gas-station.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/135-candy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/321-create-maximum-number.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/330-patching-array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/376-wiggle-subsequence.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/435-non-overlapping-intervals.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/452-minimum-number-of-arrows-to-burst-balloons.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/55-jump-game.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/605-can-place-flowers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/621-task-scheduler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/649-dota2-senate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/659-split-array-into-consecutive-subsequences.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/738-monotone-increasing-digits.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/860-lemonade-change.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/861-score-after-flipping-matrix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/976-largest-perimeter-triangle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/1189-maximum-number-of-balloons.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/128-longest-consecutive-sequence.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/1436-destination-city.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/205-isomorphic-strings.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/389-find-the-difference.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/454-4sum-ii.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/48-group-anagrams.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/811-subdomain-visit-count.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmap/970-powerful-integers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/02.03.-delete-middle-node-lcci.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/35.-fu-za-lian-biao-de-fu-zhi-lcof.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/86-partition-list.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/876-middle-of-the-linked-list.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/def.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/10- I-fei-bo-na-qi-shu-lie-lcof.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/118-pascals-triangle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/1401-circle-and-rectangle-overlapping.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/204-count-primes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/01.04.-palindrome-permutation-lcci.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/1370-increasing-decreasing-string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/1417-reformat-the-string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/1446-consecutive-characters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/28-implement-strstr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/3-longest-substring-without-repeating-characters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/316-remove-duplicate-letters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/38-count-and-say.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/409-longest-palindrome.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/468-validate-ip-address.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/5617-goal-parser-interpretation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/722-remove-comments.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/767-reorganize-string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/8-string-to-integer-atoi.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qstring/929-unique-email-addresses.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slideWindow/1004-max-consecutive-ones-iii.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slideWindow/239-sliding-window-maxinum.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slideWindow/718-maximum-length-of-repeated-subarray.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/147-insertion-sort-list.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/148-sort-list.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/164-maximum-gap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/242-valid-anagram.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/493-reverse-pairs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/561-array-partition-i.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/950-reveal-cards-in-increasing-order.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/lib/go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program Files/Go" />
   <component name="Git.Settings">
     <excluded-from-favorite>
       <branch-storage>
@@ -113,6 +229,13 @@
       </set>
     </option>
   </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1kQADTIuIygoGa2DwfNZ3ZalgtV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -127,7 +250,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable..is.expanded" value="true" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -139,7 +262,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -161,14 +284,13 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leetcode-go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <configuration name="go build" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="leetcode-go" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="leetcode-go" />
-      <directory value="$PROJECT_DIR$" />
-      <output_directory value="$PROJECT_DIR$/../../bin" />
+      <directory value="$PROJECT_DIR$/src" />
+      <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
